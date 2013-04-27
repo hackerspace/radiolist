@@ -1,0 +1,27 @@
+[playlist]
+NumberOfEntries=8
+File1=http://80.94.69.106:6014/
+Title1=Digitally Imported - Hard Dance
+Length1=-1
+File2=http://pub6.di.fm:80/di_harddance
+Title2=Digitally Imported - Hard Dance
+Length2=-1
+File3=http://pub4.di.fm:80/di_harddance
+Title3=Digitally Imported - Hard Dance
+Length3=-1
+File4=http://pub5.di.fm:80/di_harddance
+Title4=Digitally Imported - Hard Dance
+Length4=-1
+File5=http://pub1.di.fm:80/di_harddance
+Title5=Digitally Imported - Hard Dance
+Length5=-1
+File6=http://pub2.di.fm:80/di_harddance
+Title6=Digitally Imported - Hard Dance
+Length6=-1
+File7=http://pub7.di.fm:80/di_harddance
+Title7=Digitally Imported - Hard Dance
+Length7=-1
+File8=http://pub3.di.fm:80/di_harddance
+Title8=Digitally Imported - Hard Dance
+Length8=-1
+Version=2

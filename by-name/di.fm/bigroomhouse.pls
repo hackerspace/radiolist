@@ -1,0 +1,24 @@
+[playlist]
+NumberOfEntries=7
+File1=http://pub3.di.fm:80/di_bigroomhouse
+Title1=Digitally Imported - Big Room House
+Length1=-1
+File2=http://pub2.di.fm:80/di_bigroomhouse
+Title2=Digitally Imported - Big Room House
+Length2=-1
+File3=http://pub4.di.fm:80/di_bigroomhouse
+Title3=Digitally Imported - Big Room House
+Length3=-1
+File4=http://pub5.di.fm:80/di_bigroomhouse
+Title4=Digitally Imported - Big Room House
+Length4=-1
+File5=http://pub7.di.fm:80/di_bigroomhouse
+Title5=Digitally Imported - Big Room House
+Length5=-1
+File6=http://pub6.di.fm:80/di_bigroomhouse
+Title6=Digitally Imported - Big Room House
+Length6=-1
+File7=http://pub1.di.fm:80/di_bigroomhouse
+Title7=Digitally Imported - Big Room House
+Length7=-1
+Version=2

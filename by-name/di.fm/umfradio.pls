@@ -1,0 +1,24 @@
+[playlist]
+NumberOfEntries=7
+File1=http://pub3.di.fm:80/di_umfradio
+Title1=Digitally Imported - UMF Radio
+Length1=-1
+File2=http://pub7.di.fm:80/di_umfradio
+Title2=Digitally Imported - UMF Radio
+Length2=-1
+File3=http://pub4.di.fm:80/di_umfradio
+Title3=Digitally Imported - UMF Radio
+Length3=-1
+File4=http://pub2.di.fm:80/di_umfradio
+Title4=Digitally Imported - UMF Radio
+Length4=-1
+File5=http://pub6.di.fm:80/di_umfradio
+Title5=Digitally Imported - UMF Radio
+Length5=-1
+File6=http://pub5.di.fm:80/di_umfradio
+Title6=Digitally Imported - UMF Radio
+Length6=-1
+File7=http://pub1.di.fm:80/di_umfradio
+Title7=Digitally Imported - UMF Radio
+Length7=-1
+Version=2

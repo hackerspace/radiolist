@@ -1,0 +1,24 @@
+[playlist]
+NumberOfEntries=7
+File1=http://pub2.di.fm:80/di_cosmicdowntempo
+Title1=Digitally Imported - Cosmic Downtempo
+Length1=-1
+File2=http://pub5.di.fm:80/di_cosmicdowntempo
+Title2=Digitally Imported - Cosmic Downtempo
+Length2=-1
+File3=http://pub4.di.fm:80/di_cosmicdowntempo
+Title3=Digitally Imported - Cosmic Downtempo
+Length3=-1
+File4=http://pub6.di.fm:80/di_cosmicdowntempo
+Title4=Digitally Imported - Cosmic Downtempo
+Length4=-1
+File5=http://pub1.di.fm:80/di_cosmicdowntempo
+Title5=Digitally Imported - Cosmic Downtempo
+Length5=-1
+File6=http://pub7.di.fm:80/di_cosmicdowntempo
+Title6=Digitally Imported - Cosmic Downtempo
+Length6=-1
+File7=http://pub3.di.fm:80/di_cosmicdowntempo
+Title7=Digitally Imported - Cosmic Downtempo
+Length7=-1
+Version=2

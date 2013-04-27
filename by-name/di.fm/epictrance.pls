@@ -1,0 +1,24 @@
+[playlist]
+NumberOfEntries=7
+File1=http://pub6.di.fm:80/di_epictrance
+Title1=Digitally Imported - Epic Trance
+Length1=-1
+File2=http://pub4.di.fm:80/di_epictrance
+Title2=Digitally Imported - Epic Trance
+Length2=-1
+File3=http://pub5.di.fm:80/di_epictrance
+Title3=Digitally Imported - Epic Trance
+Length3=-1
+File4=http://pub7.di.fm:80/di_epictrance
+Title4=Digitally Imported - Epic Trance
+Length4=-1
+File5=http://pub3.di.fm:80/di_epictrance
+Title5=Digitally Imported - Epic Trance
+Length5=-1
+File6=http://pub1.di.fm:80/di_epictrance
+Title6=Digitally Imported - Epic Trance
+Length6=-1
+File7=http://pub2.di.fm:80/di_epictrance
+Title7=Digitally Imported - Epic Trance
+Length7=-1
+Version=2

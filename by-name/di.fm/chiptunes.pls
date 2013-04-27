@@ -1,0 +1,27 @@
+[playlist]
+NumberOfEntries=8
+File1=http://80.94.69.106:6414/
+Title1=Digitally Imported - Chiptunes
+Length1=-1
+File2=http://pub4.di.fm:80/di_chiptunes
+Title2=Digitally Imported - Chiptunes
+Length2=-1
+File3=http://pub5.di.fm:80/di_chiptunes
+Title3=Digitally Imported - Chiptunes
+Length3=-1
+File4=http://pub1.di.fm:80/di_chiptunes
+Title4=Digitally Imported - Chiptunes
+Length4=-1
+File5=http://pub6.di.fm:80/di_chiptunes
+Title5=Digitally Imported - Chiptunes
+Length5=-1
+File6=http://pub7.di.fm:80/di_chiptunes
+Title6=Digitally Imported - Chiptunes
+Length6=-1
+File7=http://pub2.di.fm:80/di_chiptunes
+Title7=Digitally Imported - Chiptunes
+Length7=-1
+File8=http://pub3.di.fm:80/di_chiptunes
+Title8=Digitally Imported - Chiptunes
+Length8=-1
+Version=2
