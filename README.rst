@@ -5,3 +5,4 @@ What is this?
 - Playlists are grouped by the radio name in the directory structure.
   (Symlinks can be used to create different directory structure.)
 - The ``update.py`` script can re-download the playlists.
+- **Pull requests welcome.**
