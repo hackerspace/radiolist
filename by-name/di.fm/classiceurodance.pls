@@ -1,6 +1,6 @@
 [playlist]
-NumberOfEntries=8
-File1=http://80.94.69.106:6324/
+NumberOfEntries=9
+File1=http://91.235.171.123:8006/
 Title1=Digitally Imported - Classic EuroDance
 Length1=-1
 File2=http://pub4.di.fm:80/di_classiceurodance
@@ -24,4 +24,7 @@ Length7=-1
 File8=http://pub3.di.fm:80/di_classiceurodance
 Title8=Digitally Imported - Classic EuroDance
 Length8=-1
+File9=http://80.94.69.106:6324/
+Title9=Digitally Imported - Classic EuroDance
+Length9=-1
 Version=2
