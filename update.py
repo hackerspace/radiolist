@@ -127,6 +127,20 @@ stations = \
 
     'http://www.bassdrive.com/v2/streams/BassDrive.pls':  'by-name/bassdrive.pls',
     'http://www.dirtlabaudio.com/listen.m3u':             'by-name/dirt-lab-audio.m3u',
+
+    # psytube.at
+    'http://62.75.229.17:10120/listen.pls':   'by-name/psytube.at/orochill.pls',
+    'http://62.75.229.17:9120/listen.pls':    'by-name/psytube.at/goa.pls',
+    'http://212.186.29.215:16150/listen.pls': 'by-name/psytube.at/suomi.pls',
+    'http://212.186.29.215:17150/listen.pls': 'by-name/psytube.at/zenonesque.pls',
+    'http://62.75.229.17:8120/listen.pls':    'by-name/psytube.at/dark-psy.pls',
+    'http://212.186.29.215:19150/listen.pls': 'by-name/psytube.at/hightech-psycore.pls',
+    'http://62.75.229.17:12120/listen.pls':   'by-name/psytube.at/dubstep.pls',
+    'http://62.75.229.17:11120/listen.pls':   'by-name/psytube.at/dnb.pls',
+    'http://dl.dropbox.com/s/58mmxvamha6vine/MINIMAL%20on%20www.psytube.at.pls?dl=1':   'by-name/psytube.at/minimal.pls',
+    'http://dl.dropbox.com/s/si0kx3x0wdg9psx/TECHNO%20on%20www.psytube.at.pls?dl=1':    'by-name/psytube.at/techno.pls',
+    'http://dl.dropbox.com/s/mad1dwfwt7w6u2h/FuLL%20ON%20on%20www.psytube.at.pls?dl=1': 'by-name/psytube.at/full-on.pls',
+    'http://dl.dropboxusercontent.com/s/jj5pygmxvmdic6w/Progressive%20on%20www.psytube.at.pls?token_hash=AAF2IT6nnJ-7QH6Sa0YOLsHzd5zli6ZT5woVasKwnqJIvQ&dl=1': 'by-name/psytube.at/progressive.pls',
 }
 
 import os
