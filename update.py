@@ -141,6 +141,8 @@ stations = \
     'http://dl.dropbox.com/s/si0kx3x0wdg9psx/TECHNO%20on%20www.psytube.at.pls?dl=1':    'by-name/psytube.at/techno.pls',
     'http://dl.dropbox.com/s/mad1dwfwt7w6u2h/FuLL%20ON%20on%20www.psytube.at.pls?dl=1': 'by-name/psytube.at/full-on.pls',
     'http://dl.dropboxusercontent.com/s/jj5pygmxvmdic6w/Progressive%20on%20www.psytube.at.pls?token_hash=AAF2IT6nnJ-7QH6Sa0YOLsHzd5zli6ZT5woVasKwnqJIvQ&dl=1': 'by-name/psytube.at/progressive.pls',
+
+    'http://radior.video.muni.cz:8000/FSS_mp3-128.mp3.m3u': 'by-name/radio-R.m3u',
 }
 
 import os
