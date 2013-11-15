@@ -147,6 +147,20 @@ stations = \
     'http://www.play.cz/radio/ethno128.asx':  'by-name/ethno.asx',
     'http://stream.laut.fm/bitfunker.m3u':    'by-name/bitfunker.m3u',
     'http://app1.enation.fm/pls':             'by-name/enationFM.pls',
+
+    # rtvs.sk (http://live.slovakradio.sk:8000/)
+    # curl -s http://live.slovakradio.sk:8000/ | grep -oP '/.+(128|256)\.ogg.m3u'
+    'http://live.slovakradio.sk:8000/FM_256.ogg.m3u':         'by-name/rtvs.sk/radio_fm.m3u',
+    'http://live.slovakradio.sk:8000/Devin_256.ogg.m3u':      'by-name/rtvs.sk/devin.m3u',
+    'http://live.slovakradio.sk:8000/Junior_128.ogg.m3u':     'by-name/rtvs.sk/junior.m3u',
+    'http://live.slovakradio.sk:8000/Klasika_256.ogg.m3u':    'by-name/rtvs.sk/klasika.m3u',
+    'http://live.slovakradio.sk:8000/Litera_256.ogg.m3u':     'by-name/rtvs.sk/litera.m3u',
+    'http://live.slovakradio.sk:8000/Patria_128.ogg.m3u':     'by-name/rtvs.sk/patria.m3u',
+    'http://live.slovakradio.sk:8000/RSI_128.ogg.m3u':        'by-name/rtvs.sk/rsi.m3u',
+    'http://live.slovakradio.sk:8000/Regina_BA_128.ogg.m3u':  'by-name/rtvs.sk/regina_ba.m3u',
+    'http://live.slovakradio.sk:8000/Regina_BB_128.ogg.m3u':  'by-name/rtvs.sk/regina_bb.m3u',
+    'http://live.slovakradio.sk:8000/Regina_KE_128.ogg.m3u':  'by-name/rtvs.sk/regina_ke.m3u',
+    'http://live.slovakradio.sk:8000/Slovensko_128.ogg.m3u':  'by-name/rtvs.sk/slovensko.m3u',
 }
 
 import os
