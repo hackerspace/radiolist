@@ -1,0 +1,13 @@
+<ASX Version = "3.0">
+<Title>COLOR Music Radio (Ethno) - 128 kbps WMA</Title>
+<MoreInfo href = "http://www.play.cz/ethno-radio" />
+<Entry>
+	<Title>COLOR Music Radio (Ethno) - 128 kbps WMA</title>
+	<Author>COLOR Music Radio (Ethno)</Author>
+	<Copyright>COLOR Music Radio (Ethno)</Copyright>
+	<MoreInfo href = "http://www.play.cz/ethno-radio" />
+	<Ref href = "mms://netshow5.play.cz/ethno128" />
+	<Ref href = "mms://netshow5.play.cz/ethno64" />
+	<PARAM NAME="HTMLView" Value="http://www.play.cz/ethno-radio" />
+</Entry>
+</ASX>

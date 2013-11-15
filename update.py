@@ -143,6 +143,10 @@ stations = \
     'http://dl.dropboxusercontent.com/s/jj5pygmxvmdic6w/Progressive%20on%20www.psytube.at.pls?token_hash=AAF2IT6nnJ-7QH6Sa0YOLsHzd5zli6ZT5woVasKwnqJIvQ&dl=1': 'by-name/psytube.at/progressive.pls',
 
     'http://radior.video.muni.cz:8000/FSS_mp3-128.mp3.m3u': 'by-name/radio-R.m3u',
+
+    'http://www.play.cz/radio/ethno128.asx':  'by-name/ethno.asx',
+    'http://stream.laut.fm/bitfunker.m3u':    'by-name/bitfunker.m3u',
+    'http://app1.enation.fm/pls':             'by-name/enationFM.pls',
 }
 
 import os
