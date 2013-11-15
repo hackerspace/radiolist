@@ -1,0 +1,140 @@
+#!/usr/bin/python
+
+import os
+import sys
+import math
+from collections import namedtuple
+
+# configparser >
+PLAYLISTS_PATH = os.path.abspath('by-name/')
+SHOW_RECENT = 5
+STORE_RECENT = 50
+RECENT_PATH = os.path.abspath(os.path.expanduser('~/.radiolist_recent'))
+PLAYER = 'mplayer -playlist {path}'
+
+Radio = namedtuple('Radio', ['num', 'name', 'basename', 'path'])
+
+
+def get_playlists():
+    result = []
+    for root, dirs, files in os.walk(PLAYLISTS_PATH):
+        for file in files:
+            result.append(os.path.join(root, file))
+
+    return map(
+        lambda (num, x): Radio(num=num,
+                               name=x[len(PLAYLISTS_PATH) + 1:],
+                               basename=os.path.basename(x),
+                               path=x),
+        enumerate(sorted(result)))
+
+
+def print_playlists(lst):
+    template = '[{{num:>{length}}}] {{name}}'
+    fmt = template.format(
+        length=int(
+            math.floor(
+                math.log10(len(lst)))
+        ) + 1)
+
+    for radio in lst:
+        print(fmt.format(**radio._asdict()))
+
+
+def print_recent(lst):
+    if not os.access(RECENT_PATH, os.R_OK):
+        return
+
+    with open(RECENT_PATH) as file:
+        names = map(lambda x: x.strip(), file.readlines())
+
+    count = 0
+    res = []
+    while names and count < SHOW_RECENT:
+        radio = lookup(lst, names.pop())
+        if isinstance(radio, Radio):
+            count += 1
+            res.append(radio)
+
+    if res:
+        print('\nRecently played:')
+        print_playlists(res)
+
+
+def store_recent(name):
+    all_recent = []
+
+    if os.path.isfile(RECENT_PATH):
+        with open(RECENT_PATH) as file:
+            all_recent = map(lambda x: x.strip(), file.readlines())
+
+    if name in all_recent:
+        all_recent.remove(name)
+
+    all_recent.append(name)
+
+    with open(RECENT_PATH, 'w') as file:
+        file.writelines(map(lambda x: x + '\n', all_recent[-STORE_RECENT:]))
+
+
+def lookup(lst, what):
+    if what.isdigit():
+        index = int(what)
+        if index < 0 or index >= len(lst):
+            return None
+
+        return lst[index]
+
+    else:
+        res = filter(lambda radio: what in radio.name, lst)
+        if len(res) == 1:
+            return res[0]
+        return res
+
+
+def safe_input(prompt):
+    try:
+        inp = raw_input(prompt)
+        if inp:
+            return inp
+    except EOFError:
+        pass
+
+    sys.exit(1)
+
+
+def play(chosen):
+    print('Playing {0}'.format(chosen.name))
+    store_recent(chosen.name)
+    os.system(PLAYER.format(**chosen._asdict()))
+    sys.exit(0)
+
+
+def find(lst, choice):
+    while True:
+        pls = lookup(lst, choice)
+        if pls:
+            if isinstance(pls, list):
+                print_playlists(pls)
+                lst = pls
+                choice = safe_input("Your choice? ")
+                continue
+
+            play(pls)
+        else:
+            print('Invalid choice')
+            sys.exit(1)
+
+
+def main():
+    lst = get_playlists()
+
+    if len(sys.argv) > 1:
+        find(lst, sys.argv[1])
+    else:
+        print_playlists(lst)
+        print_recent(lst)
+        find(lst, safe_input("Your choice? "))
+
+if __name__ == "__main__":
+    main()
