@@ -1,3 +1,3 @@
 [playlist]
 NumberOfEntries=1
-File1=http://212.186.29.215:18150/
+File1=http://62.75.229.17:19120/
