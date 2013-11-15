@@ -146,7 +146,6 @@ stations = \
 }
 
 import os
-import os.path
 import urllib2
 import contextlib
 
@@ -154,12 +153,16 @@ def download_playlist(url, dest):
     if not os.path.isdir(os.path.dirname(dest)):
         os.makedirs(os.path.dirname(dest))
 
-    with contextlib.closing(urllib2.urlopen(url)) as i, open(dest, 'w') as o:
-        while True:
-            chunk = i.read(8192)
-            if not chunk:
-                break
-            o.write(chunk)
+    try:
+        with contextlib.closing(urllib2.urlopen(url, timeout=5)) as i, open(dest, 'w') as o:
+            while True:
+                chunk = i.read(8192)
+                if not chunk:
+                    break
+                o.write(chunk)
+    except urllib2.URLError as e:
+        print 'Unable to download: {0}'.format(e)
+
 
 for (url, dest) in sorted(stations.iteritems()):
     print '{0} -> {1}'.format(url, dest)
