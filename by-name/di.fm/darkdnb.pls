@@ -1,5 +1,5 @@
 [playlist]
-NumberOfEntries=7
+NumberOfEntries=8
 File1=http://pub7.di.fm:80/di_darkdnb
 Title1=Digitally Imported - Dark DnB
 Length1=-1
@@ -18,7 +18,10 @@ Length5=-1
 File6=http://pub3.di.fm:80/di_darkdnb
 Title6=Digitally Imported - Dark DnB
 Length6=-1
-File7=http://pub1.di.fm:80/di_darkdnb
+File7=http://pub8.di.fm:80/di_darkdnb
 Title7=Digitally Imported - Dark DnB
 Length7=-1
+File8=http://pub1.di.fm:80/di_darkdnb
+Title8=Digitally Imported - Dark DnB
+Length8=-1
 Version=2

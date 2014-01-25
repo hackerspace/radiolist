@@ -1,4 +1,5 @@
-<ASX Version = "3.0">
+﻿<ASX Version = "3.0">
+<param name="encoding" value="utf-8" />
 <Title>COLOR Music Radio (Ethno) - 128 kbps WMA</Title>
 <MoreInfo href = "http://www.play.cz/ethno-radio" />
 <Entry>

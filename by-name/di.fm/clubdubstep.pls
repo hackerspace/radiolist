@@ -1,9 +1,9 @@
 [playlist]
 NumberOfEntries=8
-File1=http://91.235.171.123:8010/
+File1=http://pub5.di.fm:80/di_clubdubstep
 Title1=Digitally Imported - Club Dubstep
 Length1=-1
-File2=http://pub5.di.fm:80/di_clubdubstep
+File2=http://pub8.di.fm:80/di_clubdubstep
 Title2=Digitally Imported - Club Dubstep
 Length2=-1
 File3=http://pub6.di.fm:80/di_clubdubstep

@@ -1,5 +1,5 @@
 [playlist]
-NumberOfEntries=7
+NumberOfEntries=8
 File1=http://pub6.di.fm:80/di_epictrance
 Title1=Digitally Imported - Epic Trance
 Length1=-1
@@ -18,7 +18,10 @@ Length5=-1
 File6=http://pub1.di.fm:80/di_epictrance
 Title6=Digitally Imported - Epic Trance
 Length6=-1
-File7=http://pub2.di.fm:80/di_epictrance
+File7=http://pub8.di.fm:80/di_epictrance
 Title7=Digitally Imported - Epic Trance
 Length7=-1
+File8=http://pub2.di.fm:80/di_epictrance
+Title8=Digitally Imported - Epic Trance
+Length8=-1
 Version=2

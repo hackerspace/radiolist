@@ -1,5 +1,5 @@
 [playlist]
-NumberOfEntries=7
+NumberOfEntries=8
 File1=http://pub6.di.fm:80/di_russianclubhits
 Title1=Digitally Imported - Russian Club Hits
 Length1=-1
@@ -18,7 +18,10 @@ Length5=-1
 File6=http://pub4.di.fm:80/di_russianclubhits
 Title6=Digitally Imported - Russian Club Hits
 Length6=-1
-File7=http://pub1.di.fm:80/di_russianclubhits
+File7=http://pub8.di.fm:80/di_russianclubhits
 Title7=Digitally Imported - Russian Club Hits
 Length7=-1
+File8=http://pub1.di.fm:80/di_russianclubhits
+Title8=Digitally Imported - Russian Club Hits
+Length8=-1
 Version=2

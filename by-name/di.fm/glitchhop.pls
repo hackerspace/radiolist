@@ -1,5 +1,5 @@
 [playlist]
-NumberOfEntries=7
+NumberOfEntries=8
 File1=http://pub3.di.fm:80/di_glitchhop
 Title1=Digitally Imported - Glitch Hop
 Length1=-1
@@ -15,10 +15,13 @@ Length4=-1
 File5=http://pub7.di.fm:80/di_glitchhop
 Title5=Digitally Imported - Glitch Hop
 Length5=-1
-File6=http://pub2.di.fm:80/di_glitchhop
+File6=http://pub8.di.fm:80/di_glitchhop
 Title6=Digitally Imported - Glitch Hop
 Length6=-1
-File7=http://pub1.di.fm:80/di_glitchhop
+File7=http://pub2.di.fm:80/di_glitchhop
 Title7=Digitally Imported - Glitch Hop
 Length7=-1
+File8=http://pub1.di.fm:80/di_glitchhop
+Title8=Digitally Imported - Glitch Hop
+Length8=-1
 Version=2

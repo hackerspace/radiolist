@@ -1,9 +1,9 @@
 [playlist]
 NumberOfEntries=8
-File1=http://80.94.69.106:6374/
+File1=http://pub1.di.fm:80/di_dubstep
 Title1=Digitally Imported - Dubstep
 Length1=-1
-File2=http://pub1.di.fm:80/di_dubstep
+File2=http://pub8.di.fm:80/di_dubstep
 Title2=Digitally Imported - Dubstep
 Length2=-1
 File3=http://pub2.di.fm:80/di_dubstep

@@ -1,9 +1,9 @@
 [playlist]
 NumberOfEntries=8
-File1=http://91.235.171.123:8002/
+File1=http://pub3.di.fm:80/di_bigroomhouse
 Title1=Digitally Imported - Big Room House
 Length1=-1
-File2=http://pub3.di.fm:80/di_bigroomhouse
+File2=http://pub8.di.fm:80/di_bigroomhouse
 Title2=Digitally Imported - Big Room House
 Length2=-1
 File3=http://pub2.di.fm:80/di_bigroomhouse

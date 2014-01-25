@@ -1,9 +1,9 @@
 [playlist]
 NumberOfEntries=8
-File1=http://205.188.215.225:8004/
+File1=http://pub4.di.fm:80/di_oldschoolelectronica
 Title1=Digitally Imported - Oldschool Electronica
 Length1=-1
-File2=http://pub4.di.fm:80/di_oldschoolelectronica
+File2=http://pub8.di.fm:80/di_oldschoolelectronica
 Title2=Digitally Imported - Oldschool Electronica
 Length2=-1
 File3=http://pub2.di.fm:80/di_oldschoolelectronica

@@ -1,12 +1,12 @@
 [playlist]
 NumberOfEntries=8
-File1=http://91.235.171.123:8008/
+File1=http://pub2.di.fm:80/di_classiceurodisco
 Title1=Digitally Imported - Classic EuroDisco
 Length1=-1
-File2=http://pub2.di.fm:80/di_classiceurodisco
+File2=http://pub3.di.fm:80/di_classiceurodisco
 Title2=Digitally Imported - Classic EuroDisco
 Length2=-1
-File3=http://pub3.di.fm:80/di_classiceurodisco
+File3=http://pub8.di.fm:80/di_classiceurodisco
 Title3=Digitally Imported - Classic EuroDisco
 Length3=-1
 File4=http://pub5.di.fm:80/di_classiceurodisco
