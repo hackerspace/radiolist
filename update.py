@@ -161,6 +161,9 @@ stations = \
     'http://live.slovakradio.sk:8000/Regina_BB_128.ogg.m3u':  'by-name/rtvs.sk/regina_bb.m3u',
     'http://live.slovakradio.sk:8000/Regina_KE_128.ogg.m3u':  'by-name/rtvs.sk/regina_ke.m3u',
     'http://live.slovakradio.sk:8000/Slovensko_128.ogg.m3u':  'by-name/rtvs.sk/slovensko.m3u',
+
+    # radiotunguska.com
+    'http://stream1.radiostyle.ru/play.php?pltype=m3u&media=http://stream1.radiostyle.ru:8001/tunguska': 'by-name/tunguska.m3u',
 }
 
 import os
