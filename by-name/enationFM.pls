@@ -1,10 +1,10 @@
 [playlist]
 NumberOfEntries=5
 File1=http://de.mav.streams.enation.fm:8000
-Title1=enationFM: Live DJs spinning EDM .:. ( - Germany)
+Title1=enationFM: Live DJs spinning EDM .:. (Amsterdam - Netherlands)
 Length1=-1
 File2=http://nyc.streams.enation.fm:8345
-Title2=enationFM: Live DJs spinning EDM .:. (Chicago - United States)
+Title2=enationFM: Live DJs spinning EDM .:. (New York - United States)
 Length2=-1
 File3=http://useless.streams.enation.fm:8000
 Title3=enationFM: Live DJs spinning EDM .:. (Tokyo - Japan)

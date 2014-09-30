@@ -1,0 +1,27 @@
+[playlist]
+NumberOfEntries=8
+File1=http://pub5.di.fm:80/di_bassnjackinhouse
+Title1=Digitally Imported - Bass & Jackin' House
+Length1=-1
+File2=http://pub3.di.fm:80/di_bassnjackinhouse
+Title2=Digitally Imported - Bass & Jackin' House
+Length2=-1
+File3=http://pub2.di.fm:80/di_bassnjackinhouse
+Title3=Digitally Imported - Bass & Jackin' House
+Length3=-1
+File4=http://pub4.di.fm:80/di_bassnjackinhouse
+Title4=Digitally Imported - Bass & Jackin' House
+Length4=-1
+File5=http://pub7.di.fm:80/di_bassnjackinhouse
+Title5=Digitally Imported - Bass & Jackin' House
+Length5=-1
+File6=http://pub6.di.fm:80/di_bassnjackinhouse
+Title6=Digitally Imported - Bass & Jackin' House
+Length6=-1
+File7=http://pub8.di.fm:80/di_bassnjackinhouse
+Title7=Digitally Imported - Bass & Jackin' House
+Length7=-1
+File8=http://pub1.di.fm:80/di_bassnjackinhouse
+Title8=Digitally Imported - Bass & Jackin' House
+Length8=-1
+Version=2

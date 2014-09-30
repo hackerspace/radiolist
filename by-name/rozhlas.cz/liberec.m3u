@@ -1,3 +1,5 @@
-#EXTM3
+#EXTM3U
+#EXT-X-VERSION:3
 http://icecast2.play.cz/croliberec128.mp3
 http://icecast1.play.cz/croliberec32.mp3
+#EXT-X-ENDLIST

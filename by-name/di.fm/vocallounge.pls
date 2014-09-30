@@ -1,0 +1,27 @@
+[playlist]
+NumberOfEntries=8
+File1=http://pub5.di.fm:80/di_vocallounge
+Title1=Digitally Imported - Vocal Lounge
+Length1=-1
+File2=http://pub7.di.fm:80/di_vocallounge
+Title2=Digitally Imported - Vocal Lounge
+Length2=-1
+File3=http://pub3.di.fm:80/di_vocallounge
+Title3=Digitally Imported - Vocal Lounge
+Length3=-1
+File4=http://pub6.di.fm:80/di_vocallounge
+Title4=Digitally Imported - Vocal Lounge
+Length4=-1
+File5=http://pub8.di.fm:80/di_vocallounge
+Title5=Digitally Imported - Vocal Lounge
+Length5=-1
+File6=http://pub4.di.fm:80/di_vocallounge
+Title6=Digitally Imported - Vocal Lounge
+Length6=-1
+File7=http://pub2.di.fm:80/di_vocallounge
+Title7=Digitally Imported - Vocal Lounge
+Length7=-1
+File8=http://pub1.di.fm:80/di_vocallounge
+Title8=Digitally Imported - Vocal Lounge
+Length8=-1
+Version=2

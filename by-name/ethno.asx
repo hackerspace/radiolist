@@ -1,14 +1,14 @@
 ﻿<ASX Version = "3.0">
 <param name="encoding" value="utf-8" />
-<Title>COLOR Music Radio (Ethno) - 128 kbps WMA</Title>
-<MoreInfo href = "http://www.play.cz/ethno-radio" />
+<Title>COLOR Music Radio | 90.7 a 99.4FM - 128 kbps WMA</Title>
+<MoreInfo href = "http://www.play.cz/color-music-radio" />
 <Entry>
-	<Title>COLOR Music Radio (Ethno) - 128 kbps WMA</title>
-	<Author>COLOR Music Radio (Ethno)</Author>
-	<Copyright>COLOR Music Radio (Ethno)</Copyright>
-	<MoreInfo href = "http://www.play.cz/ethno-radio" />
+	<Title>COLOR Music Radio | 90.7 a 99.4FM - 128 kbps WMA</title>
+	<Author>COLOR Music Radio | 90.7 a 99.4FM</Author>
+	<Copyright>COLOR Music Radio | 90.7 a 99.4FM</Copyright>
+	<MoreInfo href = "http://www.play.cz/color-music-radio" />
 	<Ref href = "mms://netshow5.play.cz/ethno128" />
 	<Ref href = "mms://netshow5.play.cz/ethno64" />
-	<PARAM NAME="HTMLView" Value="http://www.play.cz/ethno-radio" />
+	<PARAM NAME="HTMLView" Value="http://www.play.cz/color-music-radio" />
 </Entry>
 </ASX>
