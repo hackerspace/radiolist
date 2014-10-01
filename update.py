@@ -169,17 +169,17 @@ stations = \
 
     # rtvs.sk (http://live.slovakradio.sk:8000/)
     # curl -s http://live.slovakradio.sk:8000/ | grep -oP '/.+256\.mp3.m3u'
-    'http://live.slovakradio.sk:8000/FM_256.mp3.m3u':         'by-name/rtvs.sk/radio_fm.m3u',
-    'http://live.slovakradio.sk:8000/Devin_256.mp3.m3u':      'by-name/rtvs.sk/devin.m3u',
-    'http://live.slovakradio.sk:8000/Junior_256.mp3.m3u':     'by-name/rtvs.sk/junior.m3u',
-    'http://live.slovakradio.sk:8000/Klasika_256.mp3.m3u':    'by-name/rtvs.sk/klasika.m3u',
-    'http://live.slovakradio.sk:8000/Litera_256.mp3.m3u':     'by-name/rtvs.sk/litera.m3u',
-    'http://live.slovakradio.sk:8000/Patria_256.mp3.m3u':     'by-name/rtvs.sk/patria.m3u',
-    'http://live.slovakradio.sk:8000/RSI_256.mp3.m3u':        'by-name/rtvs.sk/rsi.m3u',
-    'http://live.slovakradio.sk:8000/Regina_BA_256.mp3.m3u':  'by-name/rtvs.sk/regina_ba.m3u',
-    'http://live.slovakradio.sk:8000/Regina_BB_256.mp3.m3u':  'by-name/rtvs.sk/regina_bb.m3u',
-    'http://live.slovakradio.sk:8000/Regina_KE_256.mp3.m3u':  'by-name/rtvs.sk/regina_ke.m3u',
-    'http://live.slovakradio.sk:8000/Slovensko_256.mp3.m3u':  'by-name/rtvs.sk/slovensko.m3u',
+    PlsRadio('http://live.slovakradio.sk:8000/FM_256.mp3.m3u',         'rtvs.sk/radio_fm.m3u'),
+    PlsRadio('http://live.slovakradio.sk:8000/Devin_256.mp3.m3u',      'rtvs.sk/devin.m3u'),
+    PlsRadio('http://live.slovakradio.sk:8000/Junior_256.mp3.m3u',     'rtvs.sk/junior.m3u'),
+    PlsRadio('http://live.slovakradio.sk:8000/Klasika_256.mp3.m3u',    'rtvs.sk/klasika.m3u'),
+    PlsRadio('http://live.slovakradio.sk:8000/Litera_256.mp3.m3u',     'rtvs.sk/litera.m3u'),
+    PlsRadio('http://live.slovakradio.sk:8000/Patria_256.mp3.m3u',     'rtvs.sk/patria.m3u'),
+    PlsRadio('http://live.slovakradio.sk:8000/RSI_256.mp3.m3u',        'rtvs.sk/rsi.m3u'),
+    PlsRadio('http://live.slovakradio.sk:8000/Regina_BA_256.mp3.m3u',  'rtvs.sk/regina_ba.m3u'),
+    PlsRadio('http://live.slovakradio.sk:8000/Regina_BB_256.mp3.m3u',  'rtvs.sk/regina_bb.m3u'),
+    PlsRadio('http://live.slovakradio.sk:8000/Regina_KE_256.mp3.m3u',  'rtvs.sk/regina_ke.m3u'),
+    PlsRadio('http://live.slovakradio.sk:8000/Slovensko_256.mp3.m3u',  'rtvs.sk/slovensko.m3u'),
 
     # radiotunguska.com
     PlsRadio('http://stream1.radiostyle.ru/play.php?pltype=m3u&media=http://stream1.radiostyle.ru:8001/tunguska', 'tunguska.m3u')
