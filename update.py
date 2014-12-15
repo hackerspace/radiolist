@@ -182,7 +182,11 @@ stations = \
     PlsRadio('http://live.slovakradio.sk:8000/Slovensko_256.mp3.m3u',  'rtvs.sk/slovensko.m3u'),
 
     # radiotunguska.com
-    PlsRadio('http://stream1.radiostyle.ru/play.php?pltype=m3u&media=http://stream1.radiostyle.ru:8001/tunguska', 'tunguska.m3u')
+    PlsRadio('http://stream1.radiostyle.ru/play.php?pltype=m3u&media=http://stream1.radiostyle.ru:8001/tunguska', 'tunguska.m3u'),
+
+    # subfocus.fm
+    PlsRadio('http://subfocus.fm:8000/listen.pls?sid=1', 'subfocus.fm/ambient.pls'),
+    PlsRadio('http://subfocus.fm:8000/listen.pls?sid=2', 'subfocus.fm/dnb.pls')
 ]
 
 
