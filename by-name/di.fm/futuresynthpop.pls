@@ -1,5 +1,5 @@
 [playlist]
-NumberOfEntries=8
+NumberOfEntries=7
 File1=http://pub2.di.fm:80/di_futuresynthpop
 Title1=Digitally Imported - Future Synthpop
 Length1=-1
@@ -21,7 +21,4 @@ Length6=-1
 File7=http://pub6.di.fm:80/di_futuresynthpop
 Title7=Digitally Imported - Future Synthpop
 Length7=-1
-File8=http://pub3.di.fm:80/di_futuresynthpop
-Title8=Digitally Imported - Future Synthpop
-Length8=-1
 Version=2

@@ -1,5 +1,5 @@
 [playlist]
-NumberOfEntries=8
+NumberOfEntries=7
 File1=http://pub6.di.fm:80/di_jungle
 Title1=Digitally Imported - Jungle
 Length1=-1
@@ -12,16 +12,13 @@ Length3=-1
 File4=http://pub8.di.fm:80/di_jungle
 Title4=Digitally Imported - Jungle
 Length4=-1
-File5=http://pub3.di.fm:80/di_jungle
+File5=http://pub7.di.fm:80/di_jungle
 Title5=Digitally Imported - Jungle
 Length5=-1
-File6=http://pub7.di.fm:80/di_jungle
+File6=http://pub5.di.fm:80/di_jungle
 Title6=Digitally Imported - Jungle
 Length6=-1
-File7=http://pub5.di.fm:80/di_jungle
+File7=http://pub1.di.fm:80/di_jungle
 Title7=Digitally Imported - Jungle
 Length7=-1
-File8=http://pub1.di.fm:80/di_jungle
-Title8=Digitally Imported - Jungle
-Length8=-1
 Version=2

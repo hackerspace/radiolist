@@ -1,5 +1,5 @@
 [playlist]
-NumberOfEntries=8
+NumberOfEntries=7
 File1=http://pub2.di.fm:80/di_tribalhouse
 Title1=Digitally Imported - Tribal House
 Length1=-1
@@ -18,10 +18,7 @@ Length5=-1
 File6=http://pub6.di.fm:80/di_tribalhouse
 Title6=Digitally Imported - Tribal House
 Length6=-1
-File7=http://pub3.di.fm:80/di_tribalhouse
+File7=http://80.94.69.106:6274/
 Title7=Digitally Imported - Tribal House
 Length7=-1
-File8=http://80.94.69.106:6274/
-Title8=Digitally Imported - Tribal House
-Length8=-1
 Version=2

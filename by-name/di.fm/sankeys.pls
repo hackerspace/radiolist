@@ -1,5 +1,5 @@
 [playlist]
-NumberOfEntries=8
+NumberOfEntries=7
 File1=http://pub5.di.fm:80/di_sankeys
 Title1=Digitally Imported - Sankeys Radio
 Length1=-1
@@ -21,7 +21,4 @@ Length6=-1
 File7=http://pub8.di.fm:80/di_sankeys
 Title7=Digitally Imported - Sankeys Radio
 Length7=-1
-File8=http://pub3.di.fm:80/di_sankeys
-Title8=Digitally Imported - Sankeys Radio
-Length8=-1
 Version=2

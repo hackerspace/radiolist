@@ -1,5 +1,5 @@
 [playlist]
-NumberOfEntries=8
+NumberOfEntries=7
 File1=http://pub2.di.fm:80/di_electropop
 Title1=Digitally Imported - Electropop
 Length1=-1
@@ -15,13 +15,10 @@ Length4=-1
 File5=http://pub4.di.fm:80/di_electropop
 Title5=Digitally Imported - Electropop
 Length5=-1
-File6=http://pub3.di.fm:80/di_electropop
+File6=http://pub8.di.fm:80/di_electropop
 Title6=Digitally Imported - Electropop
 Length6=-1
-File7=http://pub8.di.fm:80/di_electropop
+File7=http://pub1.di.fm:80/di_electropop
 Title7=Digitally Imported - Electropop
 Length7=-1
-File8=http://pub1.di.fm:80/di_electropop
-Title8=Digitally Imported - Electropop
-Length8=-1
 Version=2

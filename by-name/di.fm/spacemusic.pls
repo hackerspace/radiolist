@@ -1,5 +1,5 @@
 [playlist]
-NumberOfEntries=8
+NumberOfEntries=7
 File1=http://pub6.di.fm:80/di_spacemusic
 Title1=Digitally Imported - Space Dreams
 Length1=-1
@@ -18,10 +18,7 @@ Length5=-1
 File6=http://pub5.di.fm:80/di_spacemusic
 Title6=Digitally Imported - Space Dreams
 Length6=-1
-File7=http://pub3.di.fm:80/di_spacemusic
+File7=http://pub8.di.fm:80/di_spacemusic
 Title7=Digitally Imported - Space Dreams
 Length7=-1
-File8=http://pub8.di.fm:80/di_spacemusic
-Title8=Digitally Imported - Space Dreams
-Length8=-1
 Version=2

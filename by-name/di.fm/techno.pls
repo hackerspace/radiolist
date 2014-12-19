@@ -1,5 +1,5 @@
 [playlist]
-NumberOfEntries=8
+NumberOfEntries=7
 File1=http://pub1.di.fm:80/di_techno
 Title1=Digitally Imported - Techno
 Length1=-1
@@ -21,7 +21,4 @@ Length6=-1
 File7=http://pub7.di.fm:80/di_techno
 Title7=Digitally Imported - Techno
 Length7=-1
-File8=http://pub3.di.fm:80/di_techno
-Title8=Digitally Imported - Techno
-Length8=-1
 Version=2

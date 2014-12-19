@@ -1,5 +1,5 @@
 [playlist]
-NumberOfEntries=8
+NumberOfEntries=7
 File1=http://pub6.di.fm:80/di_eurodance
 Title1=Digitally Imported - EuroDance
 Length1=-1
@@ -12,16 +12,13 @@ Length3=-1
 File4=http://pub1.di.fm:80/di_eurodance
 Title4=Digitally Imported - EuroDance
 Length4=-1
-File5=http://pub3.di.fm:80/di_eurodance
+File5=http://pub8.di.fm:80/di_eurodance
 Title5=Digitally Imported - EuroDance
 Length5=-1
-File6=http://pub8.di.fm:80/di_eurodance
+File6=http://pub4.di.fm:80/di_eurodance
 Title6=Digitally Imported - EuroDance
 Length6=-1
-File7=http://pub4.di.fm:80/di_eurodance
+File7=http://pub2.di.fm:80/di_eurodance
 Title7=Digitally Imported - EuroDance
 Length7=-1
-File8=http://pub2.di.fm:80/di_eurodance
-Title8=Digitally Imported - EuroDance
-Length8=-1
 Version=2

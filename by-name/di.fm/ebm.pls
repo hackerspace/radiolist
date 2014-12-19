@@ -1,5 +1,5 @@
 [playlist]
-NumberOfEntries=8
+NumberOfEntries=7
 File1=http://pub7.di.fm:80/di_ebm
 Title1=Digitally Imported - EBM
 Length1=-1
@@ -18,10 +18,7 @@ Length5=-1
 File6=http://pub2.di.fm:80/di_ebm
 Title6=Digitally Imported - EBM
 Length6=-1
-File7=http://pub3.di.fm:80/di_ebm
+File7=http://pub6.di.fm:80/di_ebm
 Title7=Digitally Imported - EBM
 Length7=-1
-File8=http://pub6.di.fm:80/di_ebm
-Title8=Digitally Imported - EBM
-Length8=-1
 Version=2

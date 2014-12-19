@@ -1,0 +1,24 @@
+[playlist]
+NumberOfEntries=7
+File1=http://pub4.di.fm:80/di_darkpsytrance
+Title1=Digitally Imported - Dark PsyTrance
+Length1=-1
+File2=http://pub6.di.fm:80/di_darkpsytrance
+Title2=Digitally Imported - Dark PsyTrance
+Length2=-1
+File3=http://pub7.di.fm:80/di_darkpsytrance
+Title3=Digitally Imported - Dark PsyTrance
+Length3=-1
+File4=http://pub8.di.fm:80/di_darkpsytrance
+Title4=Digitally Imported - Dark PsyTrance
+Length4=-1
+File5=http://pub2.di.fm:80/di_darkpsytrance
+Title5=Digitally Imported - Dark PsyTrance
+Length5=-1
+File6=http://pub5.di.fm:80/di_darkpsytrance
+Title6=Digitally Imported - Dark PsyTrance
+Length6=-1
+File7=http://pub1.di.fm:80/di_darkpsytrance
+Title7=Digitally Imported - Dark PsyTrance
+Length7=-1
+Version=2

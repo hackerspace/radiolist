@@ -1,5 +1,5 @@
 [playlist]
-NumberOfEntries=8
+NumberOfEntries=7
 File1=http://pub5.di.fm:80/di_chillhop
 Title1=Digitally Imported - ChillHop
 Length1=-1
@@ -18,10 +18,7 @@ Length5=-1
 File6=http://pub7.di.fm:80/di_chillhop
 Title6=Digitally Imported - ChillHop
 Length6=-1
-File7=http://pub3.di.fm:80/di_chillhop
+File7=http://pub1.di.fm:80/di_chillhop
 Title7=Digitally Imported - ChillHop
 Length7=-1
-File8=http://pub1.di.fm:80/di_chillhop
-Title8=Digitally Imported - ChillHop
-Length8=-1
 Version=2
