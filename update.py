@@ -72,7 +72,7 @@ class ScrapRadio(Radio):
             dest = os.path.join(self.namedir, name + self.pls_ext)
             self.download_playlist(url, dest)
 
-    def scrape(self):
+    def scrape(self, soup):
         # needs to return iterable of tuples (url, stationname)
         raise NotImplementedError('scrape')
 
