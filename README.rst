@@ -6,3 +6,9 @@ What is this?
   (Symlinks can be used to create different directory structure.)
 - The ``update.py`` script can re-download the playlists.
 - **Pull requests welcome.**
+
+update.py dependencies
+----------------------
+
+- python 2.7+, no python3 support yet:(
+- beautifulsoup4
