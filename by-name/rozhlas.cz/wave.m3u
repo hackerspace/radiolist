@@ -1,5 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
-http://icecast5.play.cz/crowave-128.mp3
-http://icecast5.play.cz/crowave-32.mp3
+http://ice3.abradio.cz/crowave128.mp3
+http://ice3.abradio.cz/crowave256.mp3
+http://ice3.abradio.cz/crowave64.mp3
 #EXT-X-ENDLIST

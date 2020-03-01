@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
-http://icecast2.play.cz/crocb128.mp3
-http://icecast1.play.cz/crocb32.mp3
+http://ice3.abradio.cz/crocb128.mp3
+http://ice3.abradio.cz/crocb64.mp3
 #EXT-X-ENDLIST

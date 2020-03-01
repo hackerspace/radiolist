@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
-http://icecast2.play.cz/croplzen128.mp3
-http://icecast1.play.cz/croplzen32.mp3
+http://ice3.abradio.cz/croplzen128.mp3
+http://ice3.abradio.cz/croplzen64.mp3
 #EXT-X-ENDLIST

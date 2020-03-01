@@ -1,0 +1,5 @@
+#EXTM3U
+#EXT-X-VERSION:3
+http://ice3.abradio.cz/crokv128.mp3
+http://ice3.abradio.cz/crokv64.mp3
+#EXT-X-ENDLIST

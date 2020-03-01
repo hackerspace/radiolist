@@ -1,5 +1,7 @@
 #EXTM3U
 #EXT-X-VERSION:3
 http://icecast5.play.cz/croddur-128.mp3
+http://icecast6.play.cz/croddur-256.mp3
+http://icecast8.play.cz/croddur-64.mp3
 http://icecast5.play.cz/croddur-32.mp3
 #EXT-X-ENDLIST

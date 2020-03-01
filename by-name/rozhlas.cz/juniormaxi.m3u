@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
-http://icecast5.play.cz/crojuniormaxi128.mp3
-http://icecast5.play.cz/crojuniormaxi32.mp3
+http://ice3.abradio.cz/crojuniormaxi128.mp3
+http://ice3.abradio.cz/crojuniormaxi64.mp3
 #EXT-X-ENDLIST

@@ -1,5 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 http://icecast2.play.cz/croregion128.mp3
+http://icecast1.play.cz/croregion64.mp3
 http://icecast1.play.cz/croregion32.mp3
 #EXT-X-ENDLIST

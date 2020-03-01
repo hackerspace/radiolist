@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
-http://icecast2.play.cz/crobrno128.mp3
-http://icecast1.play.cz/crobrno32.mp3
+http://ice3.abradio.cz/crobrno128.mp3
+http://ice3.abradio.cz/crobrno64.mp3
 #EXT-X-ENDLIST
