@@ -147,20 +147,6 @@ stations = \
     PlsRadio('http://www.bassdrive.com/v2/streams/BassDrive.pls',  'bassdrive.pls'),
     PlsRadio('http://www.dirtlabaudio.com/listen.m3u',             'dirt-lab-audio.m3u'),
 
-    # psytube.at
-    PlsRadio('http://62.75.229.17:10120/listen.pls',   'psytube.at/orochill.pls'),
-    PlsRadio('http://62.75.229.17:9120/listen.pls',    'psytube.at/goa.pls'),
-    PlsRadio('http://212.186.29.215:16150/listen.pls', 'psytube.at/suomi.pls'),
-    PlsRadio('http://212.186.29.215:17150/listen.pls', 'psytube.at/zenonesque.pls'),
-    PlsRadio('http://62.75.229.17:8120/listen.pls',    'psytube.at/dark-psy.pls'),
-    PlsRadio('http://212.186.29.215:19150/listen.pls', 'psytube.at/hightech-psycore.pls'),
-    PlsRadio('http://62.75.229.17:12120/listen.pls',   'psytube.at/dubstep.pls'),
-    PlsRadio('http://62.75.229.17:11120/listen.pls',   'psytube.at/dnb.pls'),
-    PlsRadio('http://dl.dropbox.com/s/58mmxvamha6vine/MINIMAL%20on%20www.psytube.at.pls?dl=1',   'psytube.at/minimal.pls'),
-    PlsRadio('http://dl.dropbox.com/s/si0kx3x0wdg9psx/TECHNO%20on%20www.psytube.at.pls?dl=1',    'psytube.at/techno.pls'),
-    PlsRadio('http://dl.dropbox.com/s/mad1dwfwt7w6u2h/FuLL%20ON%20on%20www.psytube.at.pls?dl=1', 'psytube.at/full-on.pls'),
-    PlsRadio('http://dl.dropboxusercontent.com/s/jj5pygmxvmdic6w/Progressive%20on%20www.psytube.at.pls?token_hash=AAF2IT6nnJ-7QH6Sa0YOLsHzd5zli6ZT5woVasKwnqJIvQ&dl=1', 'psytube.at/progressive.pls'),
-
     PlsRadio('http://radior.video.muni.cz:8000/FSS_mp3-128.mp3.m3u', 'radio-R.m3u'),
 
     PlsRadio('http://api.play.cz/radio/ethno128.asx',  'ethno.asx'),
