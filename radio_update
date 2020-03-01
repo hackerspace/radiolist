@@ -110,6 +110,18 @@ class RTVS(ScrapRadio):
                 if sname == "fm": sname = "radio_fm"
                 yield (self.url + name, sname)
 
+# approx curl -s http://live.slovakradio.sk:8000/ | grep -oP '/.+256\.mp3.m3u'
+class R23(ScrapRadio):
+    def __init__(self):
+        super(R23, self).__init__('radio23.cz', 'http://radio23.cz')
+
+    def scrape(self, soup):
+        for anchor in soup.find_all('a'):
+            name = anchor['href']
+            if ".m3u" in name:
+                sname = name.split('/')[-1].strip(".m3u")
+                yield (name, sname)
+
 stations = \
 [
     # somafm.com
@@ -121,19 +133,14 @@ stations = \
     # rtvs.sk
     RTVS(),
 
+    # radio23.cz
+    R23(),
+
     # divbyzero.de
     PlsRadio('http://divbyzero.de/chill.pls', 'divbyzero.de/ambient-and-downbeat.pls'),
     PlsRadio('http://divbyzero.de/mix.pls',   'divbyzero.de/mixes-and-livesets.pls'),
     PlsRadio('http://divbyzero.de/va.pls',    'divbyzero.de/progressive.pls'),
     PlsRadio('http://divbyzero.de/old.pls',   'divbyzero.de/goa.pls'),
-
-    # radio23.cz
-    PlsRadio('http://stream1.radio23.cz/1ch128.m3u', 'radio23.cz/ch1-tekno.m3u'),
-    PlsRadio('http://stream1.radio23.cz/2ch128.m3u', 'radio23.cz/ch2-breakbeat.m3u'),
-    PlsRadio('http://stream1.radio23.cz/3ch128.m3u', 'radio23.cz/ch3-psytrance.m3u'),
-    PlsRadio('http://stream1.radio23.cz/4ch128.m3u', 'radio23.cz/ch4-dnb.m3u'),
-    PlsRadio('http://stream1.radio23.cz/5ch128.m3u', 'radio23.cz/ch5-hardcore.m3u'),
-    PlsRadio('http://stream1.radio23.cz/live.m3u',   'radio23.cz/ch-live.m3u'),
 
     # rozhlas.cz
     PlsRadio('http://api.play.cz/radio/cro1-128.mp3.m3u',         'rozhlas.cz/1.m3u'),
