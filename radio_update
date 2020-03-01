@@ -40,7 +40,7 @@ class Radio(object):
                         break
                     o.write(chunk.decode())
         except urllib.error.URLError as e:
-            print('Unable to download: {0}'.format(e))
+            print('Unable to download: {0} - {1}'.format(url, e))
 
 class PlsRadio(Radio):
     def __init__(self, url, name):
