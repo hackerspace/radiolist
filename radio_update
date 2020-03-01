@@ -97,6 +97,18 @@ class SomaFm(ScrapRadio):
             src = 'http://somafm.com/{0}.pls'.format(name)
             yield (src, name)
 
+# approx curl -s http://live.slovakradio.sk:8000/ | grep -oP '/.+256\.mp3.m3u'
+class RTVS(ScrapRadio):
+    def __init__(self):
+        super(RTVS, self).__init__('rtvs.sk', 'http://live.slovakradio.sk:8000/')
+
+    def scrape(self, soup):
+        for anchor in soup.find_all('a'):
+            name = anchor['href'].strip('/')
+            if "_256.mp3.m3u" in name:
+                sname = name.strip("_256.mp3.m3u").lower()
+                if sname == "fm": sname = "radio_fm"
+                yield (self.url + name, sname)
 
 stations = \
 [
@@ -105,6 +117,9 @@ stations = \
 
     # di.fm
     DiFm(),
+
+    # rtvs.sk
+    RTVS(),
 
     # divbyzero.de
     PlsRadio('http://divbyzero.de/chill.pls', 'divbyzero.de/ambient-and-downbeat.pls'),
@@ -152,20 +167,6 @@ stations = \
     PlsRadio('http://api.play.cz/radio/ethno128.asx',  'ethno.asx'),
     PlsRadio('http://stream.laut.fm/bitfunker.m3u',    'bitfunker.m3u'),
     PlsRadio('http://app1.enation.fm/pls',             'enationFM.pls'),
-
-    # rtvs.sk (http://live.slovakradio.sk:8000/)
-    # curl -s http://live.slovakradio.sk:8000/ | grep -oP '/.+256\.mp3.m3u'
-    PlsRadio('http://live.slovakradio.sk:8000/FM_256.mp3.m3u',         'rtvs.sk/radio_fm.m3u'),
-    PlsRadio('http://live.slovakradio.sk:8000/Devin_256.mp3.m3u',      'rtvs.sk/devin.m3u'),
-    PlsRadio('http://live.slovakradio.sk:8000/Junior_256.mp3.m3u',     'rtvs.sk/junior.m3u'),
-    PlsRadio('http://live.slovakradio.sk:8000/Klasika_256.mp3.m3u',    'rtvs.sk/klasika.m3u'),
-    PlsRadio('http://live.slovakradio.sk:8000/Litera_256.mp3.m3u',     'rtvs.sk/litera.m3u'),
-    PlsRadio('http://live.slovakradio.sk:8000/Patria_256.mp3.m3u',     'rtvs.sk/patria.m3u'),
-    PlsRadio('http://live.slovakradio.sk:8000/RSI_256.mp3.m3u',        'rtvs.sk/rsi.m3u'),
-    PlsRadio('http://live.slovakradio.sk:8000/Regina_BA_256.mp3.m3u',  'rtvs.sk/regina_ba.m3u'),
-    PlsRadio('http://live.slovakradio.sk:8000/Regina_BB_256.mp3.m3u',  'rtvs.sk/regina_bb.m3u'),
-    PlsRadio('http://live.slovakradio.sk:8000/Regina_KE_256.mp3.m3u',  'rtvs.sk/regina_ke.m3u'),
-    PlsRadio('http://live.slovakradio.sk:8000/Slovensko_256.mp3.m3u',  'rtvs.sk/slovensko.m3u'),
 
     # radiotunguska.com
     PlsRadio('http://stream1.radiostyle.ru/play.php?pltype=m3u&media=http://stream1.radiostyle.ru:8001/tunguska', 'tunguska.m3u'),
