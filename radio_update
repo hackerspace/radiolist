@@ -184,9 +184,6 @@ stations = \
     # radiotunguska.com
     PlsRadio('http://stream1.radiostyle.ru/play.php?pltype=m3u&media=http://stream1.radiostyle.ru:8001/tunguska', 'tunguska.m3u'),
 
-    # subfocus.fm
-    PlsRadio('http://subfocus.fm:8000/listen.pls?sid=1', 'subfocus.fm/ambient.pls'),
-    PlsRadio('http://subfocus.fm:8000/listen.pls?sid=2', 'subfocus.fm/dnb.pls')
 ]
 
 
