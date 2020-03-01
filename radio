@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 import os
 import sys
@@ -22,10 +22,10 @@ def get_playlists():
             result.append(os.path.join(root, file))
 
     return map(
-        lambda (num, x): Radio(num=num,
-                               name=x[len(PLAYLISTS_PATH) + 1:],
-                               basename=os.path.basename(x),
-                               path=x),
+        lambda x: Radio(num=x[0],
+                        name=x[1][len(PLAYLISTS_PATH) + 1:],
+                        basename=os.path.basename(x[1]),
+                        path=x[1]),
         enumerate(sorted(result)))
 
 
@@ -46,7 +46,7 @@ def print_recent(lst):
         return
 
     with open(RECENT_PATH) as file:
-        names = map(lambda x: x.strip(), file.readlines())
+        names = list(map(lambda x: x.strip(), file.readlines()))
 
     count = 0
     res = []
@@ -66,7 +66,7 @@ def store_recent(name):
 
     if os.path.isfile(RECENT_PATH):
         with open(RECENT_PATH) as file:
-            all_recent = map(lambda x: x.strip(), file.readlines())
+            all_recent = list(map(lambda x: x.strip(), file.readlines()))
 
     if name in all_recent:
         all_recent.remove(name)
@@ -86,7 +86,7 @@ def lookup(lst, what):
         return lst[index]
 
     else:
-        res = filter(lambda radio: what in radio.name, lst)
+        res = list(filter(lambda radio: what in radio.name, lst))
         if len(res) == 1:
             return res[0]
         return res
@@ -94,7 +94,7 @@ def lookup(lst, what):
 
 def safe_input(prompt):
     try:
-        inp = raw_input(prompt)
+        inp = input(prompt)
         if inp:
             return inp
     except EOFError:
@@ -127,7 +127,7 @@ def find(lst, choice):
 
 
 def main():
-    lst = get_playlists()
+    lst = list(get_playlists())
 
     if len(sys.argv) > 1:
         find(lst, sys.argv[1])

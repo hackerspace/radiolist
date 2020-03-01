@@ -1,9 +1,9 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 import os
 import os.path
 import shutil
-import urllib2
+import urllib.request, urllib.error
 import contextlib
 
 from bs4 import BeautifulSoup
@@ -30,17 +30,17 @@ class Radio(object):
         if not os.path.isdir(os.path.dirname(dest)):
             os.makedirs(os.path.dirname(dest))
 
-        print '{0} -> {1}'.format(url, dest)
+        print('{0} -> {1}'.format(url, dest))
 
         try:
-            with contextlib.closing(urllib2.urlopen(url, timeout=5)) as i, open(dest, 'w') as o:
+            with contextlib.closing(urllib.request.urlopen(url, timeout=5)) as i, open(dest, 'w') as o:
                 while True:
                     chunk = i.read(8192)
                     if not chunk:
                         break
-                    o.write(chunk)
-        except urllib2.URLError as e:
-            print 'Unable to download: {0}'.format(e)
+                    o.write(chunk.decode())
+        except urllib.error.URLError as e:
+            print('Unable to download: {0}'.format(e))
 
 class PlsRadio(Radio):
     def __init__(self, url, name):
@@ -65,7 +65,7 @@ class ScrapRadio(Radio):
         shutil.rmtree(self.namedir)
 
     def update(self):
-        self.html = urllib2.urlopen(self.url, timeout=5).read()
+        self.html = urllib.request.urlopen(self.url, timeout=5).read()
         soup = BeautifulSoup(self.html)
 
         for (url, name) in self.scrape(soup):
