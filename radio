@@ -10,7 +10,7 @@ PLAYLISTS_PATH = os.path.abspath('by-name/')
 SHOW_RECENT = 5
 STORE_RECENT = 50
 RECENT_PATH = os.path.abspath(os.path.expanduser('~/.radiolist_recent'))
-PLAYER = 'mplayer -playlist {path}'
+PLAYER = 'mpv -playlist {path}'
 
 Radio = namedtuple('Radio', ['num', 'name', 'basename', 'path'])
 
