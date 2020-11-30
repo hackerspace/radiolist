@@ -39,7 +39,7 @@ class Radio(object):
                     if not chunk:
                         break
                     o.write(chunk.decode())
-        except urllib.error.URLError as e:
+        except Exception as e:
             print('Unable to download: {0} - {1}'.format(url, e))
 
 class PlsRadio(Radio):
@@ -58,6 +58,7 @@ class ScrapRadio(Radio):
     def __init__(self, name, url, pls_ext='.pls'):
         self.namedir = os.path.join('by-name', name)
         self.url = url
+        self.html = ''
         self.pls_ext = pls_ext
         super(Radio, self).__init__()
 
@@ -65,8 +66,14 @@ class ScrapRadio(Radio):
         shutil.rmtree(self.namedir)
 
     def update(self):
-        self.html = urllib.request.urlopen(self.url, timeout=5).read()
-        soup = BeautifulSoup(self.html)
+        print('Updating {0} from {1}'.format(self.__class__.__name__, self.url))
+
+        try:
+            self.html = urllib.request.urlopen(self.url, timeout=5).read()
+        except Exception as e:
+            print('Unable to download: {0} - {1}'.format(self.url, e))
+
+        soup = BeautifulSoup(self.html, features="html.parser")
 
         for (url, name) in self.scrape(soup):
             dest = os.path.join(self.namedir, name + self.pls_ext)
