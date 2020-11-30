@@ -83,16 +83,6 @@ class ScrapRadio(Radio):
         # needs to return iterable of tuples (url, stationname)
         raise NotImplementedError('scrape')
 
-class DiFm(ScrapRadio):
-    def __init__(self):
-        super(DiFm, self).__init__('di.fm', 'http://www.di.fm/')
-
-    def scrape(self, soup):
-        for li in soup.find_all(attrs={'data-channel-key': True}):
-            channel_key = li['data-channel-key']
-            src = 'http://listen.di.fm/public3/{0}.pls'.format(channel_key)
-            yield (src, channel_key)
-
 class SomaFm(ScrapRadio):
     def __init__(self):
         super(SomaFm, self).__init__('somafm.com', 'http://somafm.com/')
@@ -133,9 +123,6 @@ stations = \
 [
     # somafm.com
     SomaFm(),
-
-    # di.fm
-    DiFm(),
 
     # rtvs.sk
     RTVS(),
