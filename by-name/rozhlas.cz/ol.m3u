@@ -1,6 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 http://icecast2.play.cz/crool128.mp3
-http://icecast1.play.cz/crool64.mp3
-http://icecast1.play.cz/crool32.mp3
+http://icecast1.play.cz/xnostream.mp3
 #EXT-X-ENDLIST

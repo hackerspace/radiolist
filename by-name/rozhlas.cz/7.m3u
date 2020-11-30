@@ -1,6 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 http://icecast2.play.cz/cro7-128.mp3
-http://icecast8.play.cz/cro7-64.mp3
-http://icecast1.play.cz/cro7-32.mp3
+http://icecast1.play.cz/xnostream.mp3
 #EXT-X-ENDLIST
