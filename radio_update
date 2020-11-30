@@ -172,6 +172,9 @@ stations = \
     # radiotunguska.com
     PlsRadio('http://stream1.radiostyle.ru/play.php?pltype=m3u&media=http://stream1.radiostyle.ru:8001/tunguska', 'tunguska.m3u'),
 
+    # nsbradio
+    PlsRadio('https://nsbradio.co.uk/listen.pls', 'nsbradio.pls')
+
 ]
 
 
