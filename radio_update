@@ -130,12 +130,6 @@ stations = \
     # radio23.cz
     R23(),
 
-    # divbyzero.de
-    PlsRadio('http://divbyzero.de/chill.pls', 'divbyzero.de/ambient-and-downbeat.pls'),
-    PlsRadio('http://divbyzero.de/mix.pls',   'divbyzero.de/mixes-and-livesets.pls'),
-    PlsRadio('http://divbyzero.de/va.pls',    'divbyzero.de/progressive.pls'),
-    PlsRadio('http://divbyzero.de/old.pls',   'divbyzero.de/goa.pls'),
-
     # rozhlas.cz
     PlsRadio('http://api.play.cz/radio/cro1-128.mp3.m3u',         'rozhlas.cz/1.m3u'),
     PlsRadio('http://api.play.cz/radio/cro2-128.mp3.m3u',         'rozhlas.cz/2.m3u'),
